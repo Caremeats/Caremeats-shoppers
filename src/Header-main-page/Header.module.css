@@ -1,0 +1,42 @@
+
+.header {
+  background-color: hsl(0, 80%, 55%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: hsl(0, 0%, 80%);
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: hsla(0, 0%, 100%, 0.968);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-links li a:hover {
+  color: hsla(0, 0%, 80%, 0.968);
+}
